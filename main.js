@@ -3,12 +3,12 @@
 let people = customers.results;
 let selectedUl = document.querySelector('ul');
 
-people.forEach(function (currentItem, index) {
+people.forEach((currentItem, index) => {
   // pictures
   const _li = document.createElement('li');
 
   const _pic = document.createElement('img');
-  _pic.src = currentItem.picture.large;
+  _pic.src =  currentItem.picture.large;
   _li.appendChild(_pic);
 
   const _names = document.createElement('p');

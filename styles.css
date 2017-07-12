@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+
+ul {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+li {
+  list-style: none;
+  flex-basis: 24%;
+}
